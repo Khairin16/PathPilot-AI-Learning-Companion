@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Create your PathPilot account.">
+  <title>Create account — PathPilot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script type="module" src="../script.js"></script>
+</head>
+<body class="auth-page">
+  <main class="auth-shell">
+    <a class="brand auth-brand" href="../index.html"><span class="brand-mark">P</span> PathPilot</a>
+    <section class="auth-card">
+      <p class="eyebrow">START YOUR JOURNEY</p>
+      <h1>Create your account</h1>
+      <p class="auth-subtitle">Set up your account to build a learning path around your goals.</p>
+      <form id="registerForm">
+        <div class="form-field"><label for="fullName">Full name</label><input id="fullName" name="fullName" type="text" autocomplete="name" minlength="2" maxlength="80" required placeholder="Your name"></div>
+        <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
+        <div class="form-field"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="new-password" minlength="8" required placeholder="At least 8 characters"><small class="form-hint">Use at least 8 characters.</small></div>
+        <button class="btn btn-primary" type="submit">Create account <span aria-hidden="true">→</span></button>
+        <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+      <p class="auth-switch">Already have an account? <a href="login.html">Log in</a></p>
+    </section>
+    <a class="back-home" href="../index.html">← Back to homepage</a>
+  </main>
+</body>
+</html>

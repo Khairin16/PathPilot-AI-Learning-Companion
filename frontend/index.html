@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Build a personalized learning path with AI. Choose a skill, set your goal, and get a structured roadmap.">
+  <meta name="theme-color" content="#0b1220">
+  <title>PathPilot — AI Learning Companion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="PathPilot home"><span class="brand-mark">P</span> PathPilot</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a class="nav-login" href="pages/login.html">Log in</a>
+        <a class="btn btn-primary btn-small" href="pages/register.html">Get started <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> LEARN WITH A CLEAR DIRECTION</p>
+          <h1>Turn your learning goals into a <span class="gradient-text">clear path forward.</span></h1>
+          <p class="hero-description">Tell us what you want to learn, where you are starting from, and how much time you have. Get a structured learning roadmap built around your goals.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="pages/register.html">Create your free account <span aria-hidden="true">→</span></a>
+            <a class="btn btn-quiet" href="#how-it-works">Explore how it works</a>
+          </div>
+          <div class="trust-row"><span class="trust-icon">✓</span> Personalized learning guidance <span class="trust-separator">•</span> Beginner-friendly</div>
+        </div>
+        <div class="hero-visual" aria-label="Illustration of a personalized learning roadmap">
+          <div class="visual-glow"></div>
+          <div class="roadmap-preview">
+            <div class="preview-top"><div><span class="preview-kicker">YOUR LEARNING PLAN</span><h2>Frontend Developer</h2></div><span class="status-pill">Personalized</span></div>
+            <div class="progress-label"><span>Learning journey</span><strong>Step 01 / 04</strong></div>
+            <div class="progress-track"><span></span></div>
+            <div class="roadmap-step active"><span class="step-number">01</span><div><strong>Web foundations</strong><small>HTML, CSS & the web</small></div><span class="step-check">✓</span></div>
+            <div class="roadmap-step"><span class="step-number">02</span><div><strong>JavaScript essentials</strong><small>Logic and interactivity</small></div></div>
+            <div class="roadmap-step"><span class="step-number">03</span><div><strong>Build real projects</strong><small>Practice and portfolio</small></div></div>
+            <div class="roadmap-step"><span class="step-number">04</span><div><strong>Next-level skills</strong><small>Choose your specialization</small></div></div>
+            <div class="preview-footer"><span class="sparkle">✦</span> A plan shaped around your goals</div>
+          </div>
+          <div class="floating-note"><span class="note-icon">✦</span><div><strong>One step at a time</strong><small>Make progress with a plan</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div><strong>01</strong><span>Choose your skill</span></div>
+        <div><strong>02</strong><span>Set your learning goal</span></div>
+        <div><strong>03</strong><span>Get your roadmap</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A SIMPLE PROCESS</p>
+          <h2>From “I want to learn” to <span class="gradient-text">“I know what to do next.”</span></h2>
+          <p>Start with a goal. We help you organize the steps that can move you toward it.</p>
+        </div>
+        <div class="three-cards">
+          <article class="info-card"><span class="card-icon">◎</span><span class="card-index">STEP 01</span><h3>Tell us about your goal</h3><p>Choose a skill, your current level, your target, and the time you can study.</p></article>
+          <article class="info-card featured-card"><span class="card-icon">✦</span><span class="card-index">STEP 02</span><h3>Generate your learning path</h3><p>AI organizes topics, practice ideas, milestones, and a realistic study sequence.</p></article>
+          <article class="info-card"><span class="card-icon">↗</span><span class="card-index">STEP 03</span><h3>Learn with direction</h3><p>Review your plan on your dashboard and receive a copy by email when available.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="features">
+      <div class="container feature-grid">
+        <div class="feature-copy"><p class="eyebrow">MADE FOR YOUR JOURNEY</p><h2>A learning plan that starts <span class="gradient-text">where you are.</span></h2><p>Whether you are exploring a new field or building on existing knowledge, a clear sequence can make learning easier to manage.</p>
+          <ul class="check-list"><li>Learning steps matched to your current level</li><li>Topics arranged in a sensible order</li><li>Practice tasks and project suggestions</li><li>A weekly plan based on your available time</li></ul>
+          <a class="text-link" href="pages/register.html">Build my learning path <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="feature-panel">
+          <div class="panel-label">A ROADMAP CAN INCLUDE</div>
+          <div class="feature-line"><span class="feature-symbol purple">01</span><div><strong>Prerequisites</strong><small>What to understand first</small></div></div>
+          <div class="feature-line"><span class="feature-symbol blue">02</span><div><strong>Core topics</strong><small>Skills to learn in sequence</small></div></div>
+          <div class="feature-line"><span class="feature-symbol green">03</span><div><strong>Hands-on practice</strong><small>Exercises and project ideas</small></div></div>
+          <div class="feature-line"><span class="feature-symbol orange">04</span><div><strong>Milestones</strong><small>Ways to review your progress</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container cta-panel">
+        <div><p class="eyebrow">YOUR NEXT STEP STARTS HERE</p><h2>Make your learning goal actionable.</h2><p>Create an account and start shaping a learning path around your own schedule.</p></div>
+        <a class="btn btn-light" href="pages/register.html">Start learning <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="index.html"><span class="brand-mark">P</span> PathPilot</a><p>Learn with purpose. Grow step by step.</p><span>© <span id="year"></span> PathPilot</span></div>
+  </footer>
+</body>
+</html>
